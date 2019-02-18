@@ -18,7 +18,7 @@ var (
 	procWaitForSingleObject = kernel32.NewProc("WaitForSingleObject")
 )
 
-// WINBASEAPI WINBOOL WINAPI
+// CreateProcessW WINBOOL WINAPI
 // CreateProcessW (
 // LPCWSTR lpApplicationName,
 // LPWSTR lpCommandLine,
